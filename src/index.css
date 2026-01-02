@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
 @font-face {
   font-family: "AspireSCBlackOblique";
   src: url("./assets/aspire-sc-black-oblique.ttf") format("truetype");
