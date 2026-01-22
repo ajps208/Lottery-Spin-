@@ -103,7 +103,7 @@ export default function App() {
                 font-extrabold
                 mb-4 sm:mb-6
                 transition-all duration-300
-                ${blink ? "text-green-500" : "text-white"}
+                ${blink ? "text-red-500" : "text-white"}
               `}
               style={{
                 width: "750px",
